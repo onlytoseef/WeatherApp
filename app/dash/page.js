@@ -19,7 +19,6 @@ export default function Page() {
       forecastError,
    } = useSelector((state) => state.weather);
 
-   console.log("fetchCity", citySearchData);
    // main loadings state
    const [loadings, setLoadings] = useState(true);
 
